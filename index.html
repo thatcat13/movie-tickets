@@ -18,12 +18,24 @@
       <div class="row">
         <div class="col-md-6">
           <form id="movie-titles">
-            <select class="custom-select">
+            <select class="custom-select form-control">
               <option selected>Movies showing now</option>
               <option value="0">Blade Runner 2078</option>
               <option value="0">Care Bears</option>
               <option value="0">Rosemary and Thyme: A Recipe for Murder</option>
-            </select>            
+            </select>
+            <select class="custom-select form-control">
+              <option selected>Time of day</option>
+              <option value="1">Matinee</option>
+              <option value="2">Evening</option>
+            </select>
+            <select class="custom-select form-control">
+              <option selected>Age</option>
+              <option value="1">Child</option>
+              <option value="2">Adult</option>
+              <option value="3">Senior</option>
+            </select>
+            <button type="submit" class="btn btn-info">Calculate Price</button>
           </form>
         </div>
       </div>
