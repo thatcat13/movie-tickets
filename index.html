@@ -18,30 +18,30 @@
       <div class="row">
         <div class="col-md-6">
           <form id="movie-titles">
-            <select class="custom-select form-control">
+            <select id="title" class="custom-select form-control">
               <option selected>Movies showing now</option>
-              <option value="0">Blade Runner 2078</option>
-              <option value="0">Care Bears</option>
-              <option value="0">Rosemary and Thyme: A Recipe for Murder</option>
+              <option>Blade Runner 2078</option>
+              <option>Care Bears</option>
+              <option>Rosemary and Thyme: A Recipe for Murder</option>
             </select>
-            <select class="custom-select form-control">
+            <select id="time" class="custom-select form-control">
               <option selected>Time of day</option>
-              <option value="1">Matinee</option>
-              <option value="2">Evening</option>
+              <option value="mat">Matinee</option>
+              <option value="eve">Evening</option>
             </select>
-            <select class="custom-select form-control">
+            <select id="age" class="custom-select form-control">
               <option selected>Age</option>
-              <option value="1">Child</option>
-              <option value="2">Adult</option>
-              <option value="3">Senior</option>
+              <option value="child">Child</option>
+              <option value="adult">Adult</option>
+              <option value="senior">Senior</option>
             </select>
-            <button type="submit" class="btn btn-info">Calculate Price</button>
+            <button id="button" type="submit" class="btn btn-info">Calculate Price</button>
           </form>
         </div>
         <div class="col-md-6">
           <div id="output">
-            <ul id="selections-price">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul id="final-price">
+              
             </ul>
           </div>
         </div>
